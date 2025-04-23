@@ -32,7 +32,7 @@ def detect_location_communities(df):
         if len(sub_G.nodes) > 1:
             partition = community_louvain.best_partition(nx.Graph(sub_G))
             communities[location] = partition
-            print(f"{location}: {len(set(partition.values()))} communities detected.")
+            # print(f"{location}: {len(set(partition.values()))} communities detected.")
     return communities
 
 
@@ -56,7 +56,7 @@ def detect_time_location_communities(df):
         if len(sub_G.nodes) > 1:
             partition = community_louvain.best_partition(nx.Graph(sub_G))
             result[key] = partition
-            print(f"{key}: {len(set(partition.values()))} communities detected.")
+            # print(f"{key}: {len(set(partition.values()))} communities detected.")
     return result
 
 
@@ -75,7 +75,7 @@ def visualize_selected_communities(df, selected_community_ids):
         G.add_edge(row["Caller_ID"], row["Receiver_ID"], weight=1)
 
     if len(G.nodes) <= 1:
-        print("⚠️ Not enough data to form a graph.")
+        # print("⚠️ Not enough data to form a graph.")
         return
 
     partition = community_louvain.best_partition(nx.Graph(G))
@@ -83,7 +83,7 @@ def visualize_selected_communities(df, selected_community_ids):
     selected_nodes = [node for node, comm in partition.items() if comm in selected_community_ids]
 
     if not selected_nodes:
-        print(f"⚠️ Selected communities {selected_community_ids} do not exist.")
+        # print(f"⚠️ Selected communities {selected_community_ids} do not exist.")
         return
 
     sub_G = G.subgraph(selected_nodes)

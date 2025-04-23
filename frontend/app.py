@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import sys
 import os
+import networkx as nx
 
 # Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -43,22 +44,53 @@ if uploaded_file:
 
     st.sidebar.title("🔍 Select Analysis Section")
     section = st.sidebar.radio("Choose a section:", [
-        "Centrality & PageRank",
+        "Centrality",
+        "PageRank",
         "Community Detection",
         "Risk Analysis",
         "Visualizations"
     ])
 
-    if section == "Centrality & PageRank":
-        st.header("📊 Centrality & PageRank Scores")
-        centrality = compute_centrality(G)
-        pagerank = compute_pagerank(G)
+    if section == "Centrality":
+        st.header("📊 Centrality Scores")
 
-        st.dataframe(pd.DataFrame({
-            "Node": list(centrality.keys()),
-            "Out-Degree": list(centrality.values()),
-            "PageRank": [pagerank.get(node, 0) for node in centrality.keys()]
-        }).sort_values("PageRank", ascending=False).head(10))
+        centrality_option = st.selectbox(
+            "Choose Centrality Measure",
+            ["In-Degree", "Out-Degree", "Closeness", "Betweenness", "Eigenvector"]
+        )
+
+        top_n = st.slider("Number of top nodes to display", min_value=5, max_value=20, value=10)
+        centrality = compute_centrality(G)
+
+        # Compute centrality based on user selection
+        if centrality_option == "In-Degree":
+            centrality_scores = centrality['in_degree']
+        elif centrality_option == "Out-Degree":
+            centrality_scores = centrality['out_degree']
+        elif centrality_option == "Closeness":
+            centrality_scores = centrality['closeness']
+        elif centrality_option == "Betweenness":
+            centrality_scores = centrality['betweenness']
+        elif centrality_option == "Eigenvector":
+            try:
+                centrality_scores = centrality['eigenvector']
+            except Exception:
+                st.error("Eigenvector centrality failed to converge. Try a different measure.")
+                centrality_scores = {}
+
+        if centrality_scores:
+            sorted_scores = sorted(centrality_scores.items(), key=lambda x: x[1], reverse=True)
+            st.dataframe(pd.DataFrame(sorted_scores[:top_n], columns=["Node", f"{centrality_option} Score"]))
+
+    elif section == "PageRank":
+        st.header("🔗 PageRank Scores")
+
+        pagerank_scores = compute_pagerank(G)
+        top_n = st.slider("Number of top nodes to display", min_value=5, max_value=20, value=10, key="pagerank_slider")
+
+        sorted_pr = sorted(pagerank_scores.items(), key=lambda x: x[1], reverse=True)
+        st.dataframe(pd.DataFrame(sorted_pr[:top_n], columns=["Node", "PageRank Score"]))
+
 
     elif section == "Community Detection":
         st.header("👥 Community Detection")
@@ -88,8 +120,11 @@ if uploaded_file:
         st.header("🚨 Risk Analysis")
         centrality_df = analyze_risk(df)
 
-        st.write("Top High-Risk Nodes:")
-        st.dataframe(centrality_df[centrality_df["Risk_Label"] == "High-Risk"].sort_values("Risk_Score", ascending=False).head(10))
+        st.subheader("Top High-Risk Nodes (📊 Normalized Scores)")
+        st.caption("Note: All scores including Degree, Betweenness, and PageRank are normalized between 0 and 1.")
+
+        top_risk_df = centrality_df[centrality_df["Risk_Label"] == "High-Risk"].sort_values("Risk_Score", ascending=False).head(10)
+        st.dataframe(top_risk_df)
 
     elif section == "Visualizations":
         st.header("📈 Visualizations")
@@ -110,7 +145,31 @@ if uploaded_file:
             visualize_top_high_risk_nodes(G, centrality_df, top_n=top_n)
 
         elif vis_option == "Communities (select manually)":
-            partition = detect_location_communities(df)["All"]  # Adjust this based on your structure
-            selected_comms = st.multiselect("Select community IDs", list(set(partition.values())), default=[0, 1])
-            if selected_comms:
-                visualize_selected_communities(G, partition, selected_comms)
+            st.subheader("🔍 Community Visualization by Node Selection")
+
+            # Step 1: Select a location (since communities are divided per location)
+            locations = df["Location"].unique()
+            selected_location = st.selectbox("Select a Location", locations)
+
+            if selected_location:
+                location_partitions = detect_location_communities(df)
+                partition = location_partitions[selected_location]
+
+                all_nodes = list(partition.keys())
+                selected_nodes = st.multiselect("Select Node(s) to visualize their community", all_nodes)
+
+                if selected_nodes:
+                    # Step 2: Get community IDs for selected nodes
+                    selected_community_ids = set(partition[node] for node in selected_nodes)
+
+                    st.info(f"Visualizing community(s): {', '.join(map(str, selected_community_ids))}")
+
+                    # Step 3: Build full graph for this location
+                    sub_df = df[df["Location"] == selected_location]
+                    G_location = nx.DiGraph()
+                    for _, row in sub_df.iterrows():
+                        G_location.add_edge(row["Caller_ID"], row["Receiver_ID"], weight=1)
+
+                    # Step 4: Visualize selected communities
+                    visualize_selected_communities(G_location, partition, selected_community_ids)
+

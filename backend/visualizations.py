@@ -76,11 +76,14 @@ def visualize_top_high_risk_nodes(G, centrality_df, top_n=10):
     high_risk_nodes = centrality_df.sort_values('Risk_Score', ascending=False).head(top_n)['Node'].tolist()
 
     sub_G = G.subgraph(high_risk_nodes)
-    risk_scores = centrality_df.set_index("Node").loc[high_risk_nodes]["Risk_Score"]
+    risk_scores_dict = centrality_df.set_index("Node")["Risk_Score"].to_dict()
+
+    # Get node colors in the exact order of sub_G.nodes
+    node_colors = [risk_scores_dict.get(node, 0) for node in sub_G.nodes()]
 
     plt.figure(figsize=(10, 7))
     pos = nx.spring_layout(sub_G, seed=21)
-    nodes = nx.draw_networkx_nodes(sub_G, pos, node_color=risk_scores, cmap=plt.cm.viridis, node_size=400)
+    nodes = nx.draw_networkx_nodes(sub_G, pos, node_color=node_colors, cmap=plt.cm.viridis, node_size=400)
     nx.draw_networkx_edges(sub_G, pos, edge_color="gray", alpha=0.5)
     nx.draw_networkx_labels(sub_G, pos, font_size=8)
 
@@ -88,4 +91,5 @@ def visualize_top_high_risk_nodes(G, centrality_df, top_n=10):
     plt.title(f"Top {top_n} High-Risk Nodes")
     plt.axis("off")
     plt.tight_layout()
-    st.pyplot(plt.gcf())  # ✅ Key line
+    st.pyplot(plt.gcf())
+
