@@ -60,7 +60,8 @@ if uploaded_file:
         )
 
         top_n = st.slider("Number of top nodes to display", min_value=5, max_value=20, value=10)
-        centrality = compute_centrality(G)
+        with st.spinner("Processing... Please wait."):
+            centrality = compute_centrality(G)
 
         # Compute centrality based on user selection
         if centrality_option == "In-Degree":
@@ -85,7 +86,8 @@ if uploaded_file:
     elif section == "PageRank":
         st.header("🔗 PageRank Scores")
 
-        pagerank_scores = compute_pagerank(G)
+        with st.spinner("Processing... Please wait."):
+            pagerank_scores = compute_pagerank(G)
         top_n = st.slider("Number of top nodes to display", min_value=5, max_value=20, value=10, key="pagerank_slider")
 
         sorted_pr = sorted(pagerank_scores.items(), key=lambda x: x[1], reverse=True)
@@ -96,10 +98,11 @@ if uploaded_file:
         st.header("👥 Community Detection")
         community_option = st.selectbox("Community Mode", ["By Location", "By Time + Location"])
 
-        if community_option == "By Location":
-            partitions = detect_location_communities(df)
-        else:
-            partitions = detect_time_location_communities(df)
+        with st.spinner("Processing... Please wait."):
+            if community_option == "By Location":
+                    partitions = detect_location_communities(df)
+            else:
+                partitions = detect_time_location_communities(df)
 
         st.write("🧠 Communities Detected (sorted by size):")
 
@@ -118,7 +121,8 @@ if uploaded_file:
                 
     elif section == "Risk Analysis":
         st.header("🚨 Risk Analysis")
-        centrality_df = analyze_risk(df)
+        with st.spinner("Processing... Please wait."):
+            centrality_df = analyze_risk(df)
 
         st.subheader("Top High-Risk Nodes (📊 Normalized Scores)")
         st.caption("Note: All scores including Degree, Betweenness, and PageRank are normalized between 0 and 1.")
@@ -128,21 +132,25 @@ if uploaded_file:
 
     elif section == "Visualizations":
         st.header("📈 Visualizations")
-        centrality_df = analyze_risk(df)
+        with st.spinner("Processing... Please wait."):
+            centrality_df = analyze_risk(df)
 
         vis_option = st.selectbox("Choose Visualization Type", [
             "Full Network Graph","Risk Score Heatmap", "Top High-Risk Nodes", "Communities (select manually)"
         ])
 
         if vis_option == "Risk Score Heatmap":
-            visualize_risk_heatmap(G, centrality_df)
+            with st.spinner("Generating visualization..."):
+                visualize_risk_heatmap(G, centrality_df)
         elif vis_option == "Full Network Graph":
             show_labels = st.checkbox("Show Node Labels", value=False)
-            visualize_full_network(G, show_labels=show_labels)
+            with st.spinner("Generating visualization..."):
+                visualize_full_network(G, show_labels=show_labels)
 
         elif vis_option == "Top High-Risk Nodes":
             top_n = st.slider("Number of nodes to visualize", 5, 20, 10)
-            visualize_top_high_risk_nodes(G, centrality_df, top_n=top_n)
+            with st.spinner("Generating visualization..."):
+                visualize_top_high_risk_nodes(G, centrality_df, top_n=top_n)
 
         elif vis_option == "Communities (select manually)":
             st.subheader("🔍 Community Visualization by Node Selection")
@@ -171,5 +179,6 @@ if uploaded_file:
                         G_location.add_edge(row["Caller_ID"], row["Receiver_ID"], weight=1)
 
                     # Step 4: Visualize selected communities
-                    visualize_selected_communities(G_location, partition, selected_community_ids)
+                    with st.spinner("Generating visualization..."):
+                        visualize_selected_communities(G_location, partition, selected_community_ids)
 
