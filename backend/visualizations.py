@@ -1,17 +1,12 @@
 import matplotlib.pyplot as plt
 import networkx as nx
-import pandas as pd
+import plotly.express as px
 
 import streamlit as st
 
 def visualize_full_network(G, title="Complete Hoax Call Network", show_labels=False):
     """
     Visualizes the entire network graph.
-    
-    Args:
-        G (networkx.Graph): The full graph to visualize.
-        title (str): Title of the plot.
-        show_labels (bool): Whether to show node labels.
     """
     if G.number_of_nodes() == 0:
         st.warning("The graph is empty. Cannot display visualization.")
@@ -93,3 +88,44 @@ def visualize_top_high_risk_nodes(G, centrality_df, top_n=10):
     plt.tight_layout()
     st.pyplot(plt.gcf())
 
+
+def visualize_sentiments(df):
+    if "Sentiment" not in df.columns:
+        st.warning("Sentiment data not available.")
+        return
+
+    sentiment_counts = df["Sentiment"].value_counts().reset_index()
+    sentiment_counts.columns = ["Sentiment", "Count"]
+
+    fig = px.bar(
+        sentiment_counts,
+        x="Sentiment",
+        y="Count",
+        text="Count",
+        color="Sentiment",
+        color_discrete_map={
+            "Positive": "#00C49F",
+            "Negative": "#FF6347",
+            "Neutral": "#0088FE"
+        },
+        title="Sentiment Distribution in Call Texts",
+        template="plotly_white",
+        height=500
+    )
+
+    fig.update_traces(
+        marker_line_color="black",
+        marker_line_width=1.5,
+        textposition="outside",
+        hovertemplate="Sentiment: %{x}<br>Count: %{y}<extra></extra>"
+    )
+
+    fig.update_layout(
+        xaxis_title=None,
+        yaxis_title="Number of Calls",
+        title_font_size=22,
+        title_x=0.5,
+        bargap=0.4,
+    )
+
+    st.plotly_chart(fig, use_container_width=True)

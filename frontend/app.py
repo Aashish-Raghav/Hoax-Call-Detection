@@ -11,22 +11,20 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Backend imports
 from backend.community import (
     detect_location_communities,
-    detect_time_location_communities,
-    extract_community_nodes,
+    detect_time_location_communities
 )
 from backend.graph_utils import create_graph
 from backend.centrality import compute_centrality
 from backend.pagerank import compute_pagerank
-from backend.risk_analysis import (
-    analyze_risk,
-    build_risk_dataframe,
-    compute_centralities
-)
+from backend.sentiment import analyze_sentiment
+from backend.risk_analysis import analyze_risk
+
 from backend.visualizations import (
     visualize_risk_heatmap,
     visualize_selected_communities,
     visualize_top_high_risk_nodes,
-    visualize_full_network
+    visualize_full_network,
+    visualize_sentiments
 )
 
 # --- App UI ---
@@ -48,7 +46,8 @@ if uploaded_file:
         "PageRank",
         "Community Detection",
         "Risk Analysis",
-        "Visualizations"
+        "Visualizations",
+        "Sentiments Analysis",
     ])
 
     if section == "Centrality":
@@ -132,14 +131,14 @@ if uploaded_file:
 
     elif section == "Visualizations":
         st.header("📈 Visualizations")
-        with st.spinner("Processing... Please wait."):
-            centrality_df = analyze_risk(df)
 
         vis_option = st.selectbox("Choose Visualization Type", [
             "Full Network Graph","Risk Score Heatmap", "Top High-Risk Nodes", "Communities (select manually)"
         ])
 
         if vis_option == "Risk Score Heatmap":
+            with st.spinner("Processing... Please wait."):
+                centrality_df = analyze_risk(df)
             with st.spinner("Generating visualization..."):
                 visualize_risk_heatmap(G, centrality_df)
         elif vis_option == "Full Network Graph":
@@ -148,6 +147,8 @@ if uploaded_file:
                 visualize_full_network(G, show_labels=show_labels)
 
         elif vis_option == "Top High-Risk Nodes":
+            with st.spinner("Processing... Please wait."):
+                centrality_df = analyze_risk(df)
             top_n = st.slider("Number of nodes to visualize", 5, 20, 10)
             with st.spinner("Generating visualization..."):
                 visualize_top_high_risk_nodes(G, centrality_df, top_n=top_n)
@@ -181,4 +182,13 @@ if uploaded_file:
                     # Step 4: Visualize selected communities
                     with st.spinner("Generating visualization..."):
                         visualize_selected_communities(G_location, partition, selected_community_ids)
+
+    elif section == "Sentiments Analysis":
+        st.header("📈 Sentimenta Analysis")
+        with st.spinner("Processing... Please wait."):
+            if "Sentiment" not in df.columns:
+                df["Sentiment"] = df["Call_Text"].apply(analyze_sentiment)
+
+        with st.spinner("Generating visualization..."):
+            visualize_sentiments(df)
 

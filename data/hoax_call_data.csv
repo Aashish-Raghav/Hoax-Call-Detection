@@ -1,0 +1,501 @@
+Caller_ID,Receiver_ID,Timestamp,Duration,Location,Call_Type,Call_Text
+9235,6535,2025-04-18 15:18:48.854265,249,Houston,Incoming,I left the documents on your desk.
+2494,4850,2025-04-21 11:02:48.854265,45,Houston,Incoming,"Everything went smoothly, I appreciate your support."
+5888,6640,2025-04-16 18:43:48.854265,340,Seattle,Outgoing,"You're doing a great job, keep it up."
+6656,9750,2025-04-01 00:02:48.854265,468,Boston,Incoming,"There’s a serious issue, I need help now."
+7406,2182,2025-04-10 13:35:48.854265,305,Los Angeles,Incoming,"There’s a serious issue, I need help now."
+1318,6700,2025-03-30 09:47:48.854265,588,Boston,Incoming,"You're doing a great job, keep it up."
+6703,2573,2025-04-07 14:20:48.854265,405,Boston,Incoming,Call me back when you get a chance.
+2711,7854,2025-04-16 08:13:48.854265,285,San Francisco,Outgoing,Just wanted to say thank you for your help earlier!
+4325,7069,2025-04-14 21:48:48.854265,11,Los Angeles,Incoming,I left the documents on your desk.
+6538,6153,2025-03-30 20:48:48.854265,51,Chicago,Outgoing,"There’s a serious issue, I need help now."
+2632,5474,2025-04-01 17:33:48.854265,160,Houston,Outgoing,"Everything went smoothly, I appreciate your support."
+9126,3886,2025-03-30 05:38:48.854265,492,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+8725,8455,2025-04-24 03:28:48.854265,565,New York,Outgoing,Please confirm your availability for the meeting.
+6327,6292,2025-03-30 19:08:48.854265,89,Houston,Outgoing,"Everything went smoothly, I appreciate your support."
+4666,8521,2025-04-22 11:39:48.854265,137,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+6762,6956,2025-03-27 03:31:48.854265,553,Chicago,Outgoing,Please confirm your availability for the meeting.
+2853,9073,2025-04-21 14:39:48.854265,447,Seattle,Outgoing,Call me back when you get a chance.
+9614,8266,2025-04-21 05:05:48.854265,520,Los Angeles,Outgoing,"There’s a serious issue, I need help now."
+5474,4061,2025-04-18 22:02:48.854265,407,Los Angeles,Outgoing,"You're doing a great job, keep it up."
+2249,3406,2025-04-14 01:53:48.854265,381,Chicago,Incoming,Call me back when you get a chance.
+2671,6700,2025-04-05 00:36:48.854265,448,Chicago,Outgoing,I left the documents on your desk.
+6006,6521,2025-04-03 18:53:48.854265,563,Los Angeles,Outgoing,Please confirm your availability for the meeting.
+2143,7812,2025-04-21 03:24:48.854265,379,New York,Incoming,I left the documents on your desk.
+4069,5246,2025-04-13 22:55:48.854265,151,Los Angeles,Incoming,"Everything went smoothly, I appreciate your support."
+2286,4783,2025-04-24 06:57:48.854265,87,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+5474,2938,2025-04-15 20:22:48.854265,456,Houston,Incoming,Stop bothering me or I’ll report this call.
+9867,5246,2025-03-27 10:53:48.854265,573,San Francisco,Incoming,Please confirm your availability for the meeting.
+4069,6292,2025-03-30 14:05:48.854265,109,Seattle,Outgoing,Call me back when you get a chance.
+4820,6852,2025-03-25 05:19:48.854265,52,San Francisco,Incoming,Stop bothering me or I’ll report this call.
+4019,5474,2025-03-28 18:53:48.854265,376,New York,Outgoing,"This is an urgent warning, please evacuate immediately."
+1802,8987,2025-04-02 18:41:48.854265,80,Seattle,Outgoing,"This is an urgent warning, please evacuate immediately."
+3554,3207,2025-04-08 10:00:48.854265,248,Seattle,Incoming,Call me back when you get a chance.
+8259,6700,2025-04-11 03:27:48.854265,145,Chicago,Incoming,I left the documents on your desk.
+7901,4325,2025-04-18 18:53:48.854265,483,Seattle,Outgoing,Stop bothering me or I’ll report this call.
+1555,5968,2025-04-07 13:44:48.854265,284,San Francisco,Outgoing,I left the documents on your desk.
+2671,6535,2025-04-01 02:57:48.854265,148,New York,Incoming,I left the documents on your desk.
+1439,4589,2025-03-30 02:12:48.854265,447,Boston,Outgoing,"Everything went smoothly, I appreciate your support."
+6315,3484,2025-04-20 04:49:48.854265,500,San Francisco,Incoming,"Everything went smoothly, I appreciate your support."
+2249,9950,2025-04-02 04:02:48.854265,288,Boston,Incoming,"Everything went smoothly, I appreciate your support."
+5600,2853,2025-03-24 20:41:48.854265,480,Boston,Outgoing,"This is an urgent warning, please evacuate immediately."
+8570,4986,2025-04-03 12:17:48.854265,583,Chicago,Incoming,Stop bothering me or I’ll report this call.
+9614,6776,2025-04-12 10:17:48.854265,194,Seattle,Outgoing,I left the documents on your desk.
+6153,5665,2025-04-21 17:41:48.854265,449,Los Angeles,Incoming,Please confirm your availability for the meeting.
+3911,6762,2025-04-01 08:16:48.854265,187,Seattle,Incoming,Please confirm your availability for the meeting.
+9484,2915,2025-04-21 20:49:48.854265,505,Houston,Outgoing,Call me back when you get a chance.
+2085,4590,2025-04-07 21:18:48.854265,398,Los Angeles,Outgoing,Call me back when you get a chance.
+9884,2218,2025-03-26 06:18:48.854265,59,Houston,Outgoing,"You're doing a great job, keep it up."
+9845,6808,2025-04-23 23:26:48.854265,391,Houston,Incoming,I left the documents on your desk.
+4069,9142,2025-04-17 23:23:48.854265,573,New York,Incoming,I left the documents on your desk.
+1169,4983,2025-04-11 16:26:48.854265,124,Boston,Incoming,Stop bothering me or I’ll report this call.
+5966,7754,2025-04-15 19:56:48.854265,147,Houston,Outgoing,"This is an urgent warning, please evacuate immediately."
+6640,5783,2025-03-31 01:26:48.854265,506,New York,Outgoing,"You're doing a great job, keep it up."
+5038,5256,2025-04-11 03:08:48.854265,383,Boston,Incoming,I left the documents on your desk.
+2494,3641,2025-04-05 23:44:48.854265,233,New York,Incoming,"Everything went smoothly, I appreciate your support."
+9950,4202,2025-04-15 15:06:48.854265,352,New York,Incoming,Please confirm your availability for the meeting.
+2085,8437,2025-04-14 19:02:48.854265,252,Boston,Outgoing,Please confirm your availability for the meeting.
+4067,5968,2025-04-14 11:12:48.854265,596,Los Angeles,Outgoing,I left the documents on your desk.
+2182,3801,2025-04-23 14:01:48.854265,421,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+6596,1078,2025-04-11 22:38:48.854265,568,Seattle,Incoming,"You're doing a great job, keep it up."
+9142,3173,2025-04-04 02:18:48.854265,11,Chicago,Outgoing,Call me back when you get a chance.
+7177,2218,2025-03-28 10:16:48.854265,463,San Francisco,Incoming,I left the documents on your desk.
+2427,1620,2025-04-06 19:22:48.854265,455,Houston,Outgoing,"You're doing a great job, keep it up."
+5173,7332,2025-04-21 03:01:48.854265,83,Chicago,Incoming,Call me back when you get a chance.
+4642,2493,2025-04-20 13:26:48.854265,27,Boston,Outgoing,Call me back when you get a chance.
+2159,3554,2025-03-31 12:30:48.854265,322,Los Angeles,Incoming,"You're doing a great job, keep it up."
+9764,5108,2025-04-14 15:40:48.854265,578,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+3500,5540,2025-04-18 08:18:48.854265,444,San Francisco,Incoming,"This is an urgent warning, please evacuate immediately."
+4283,2345,2025-03-26 22:20:48.854265,180,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+6972,6700,2025-04-02 07:30:48.854265,323,Seattle,Outgoing,Please confirm your availability for the meeting.
+2427,4219,2025-04-21 04:03:48.854265,176,Seattle,Outgoing,Just wanted to say thank you for your help earlier!
+3730,6596,2025-03-31 23:35:48.854265,551,Seattle,Incoming,Call me back when you get a chance.
+9613,6895,2025-03-25 02:09:48.854265,517,New York,Outgoing,I left the documents on your desk.
+5540,3003,2025-04-14 17:11:48.854265,306,Houston,Outgoing,"You're doing a great job, keep it up."
+3147,2573,2025-03-29 09:14:48.854265,281,Seattle,Outgoing,Please confirm your availability for the meeting.
+6656,5839,2025-03-31 05:26:48.854265,165,Boston,Outgoing,Call me back when you get a chance.
+9943,7913,2025-04-23 13:52:48.854265,264,San Francisco,Outgoing,"There’s a serious issue, I need help now."
+6863,4856,2025-03-28 16:59:48.854265,508,San Francisco,Outgoing,"This is an urgent warning, please evacuate immediately."
+5901,8963,2025-04-08 08:09:48.854265,34,San Francisco,Incoming,Call me back when you get a chance.
+6635,3892,2025-04-13 19:46:48.854265,25,Chicago,Incoming,"You're doing a great job, keep it up."
+2033,8525,2025-04-05 09:28:48.854265,351,Houston,Incoming,I left the documents on your desk.
+4642,4019,2025-04-08 09:21:48.854265,527,New York,Outgoing,Call me back when you get a chance.
+8158,8548,2025-03-27 12:38:48.854265,56,Houston,Incoming,Call me back when you get a chance.
+8521,4774,2025-04-08 15:03:48.854265,69,Seattle,Outgoing,"There’s a serious issue, I need help now."
+7754,9396,2025-04-06 06:56:48.854265,315,Houston,Incoming,Call me back when you get a chance.
+5888,4115,2025-04-07 05:31:48.854265,535,Houston,Incoming,"You're doing a great job, keep it up."
+4219,3730,2025-04-21 13:13:48.854265,378,Los Angeles,Outgoing,Call me back when you get a chance.
+5966,3406,2025-04-16 04:04:48.854265,84,Chicago,Incoming,Please confirm your availability for the meeting.
+4115,2435,2025-04-04 12:13:48.854265,284,Chicago,Incoming,I left the documents on your desk.
+7507,1318,2025-04-18 23:54:48.854265,236,Boston,Incoming,Please confirm your availability for the meeting.
+3290,2681,2025-04-13 04:33:48.854265,83,Boston,Incoming,"Everything went smoothly, I appreciate your support."
+7822,7901,2025-04-20 15:29:48.854265,538,Los Angeles,Outgoing,"You're doing a great job, keep it up."
+8158,9734,2025-04-08 21:06:48.854265,520,New York,Incoming,"Everything went smoothly, I appreciate your support."
+7293,9750,2025-04-18 22:07:48.854265,488,San Francisco,Incoming,"You're doing a great job, keep it up."
+7406,6508,2025-04-11 09:48:48.854265,191,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+1518,9396,2025-03-26 04:13:48.854265,468,New York,Outgoing,I left the documents on your desk.
+4023,9750,2025-03-24 15:08:48.854265,185,Chicago,Incoming,"There’s a serious issue, I need help now."
+6635,4642,2025-04-12 05:57:48.854265,196,Boston,Outgoing,Just wanted to say thank you for your help earlier!
+5173,2182,2025-04-19 07:28:48.854265,442,Houston,Incoming,Call me back when you get a chance.
+8987,1284,2025-04-13 15:22:48.854265,244,Houston,Incoming,I left the documents on your desk.
+7925,7332,2025-03-29 22:54:48.854265,169,Chicago,Incoming,"You're doing a great job, keep it up."
+4346,4067,2025-04-23 17:55:48.854265,316,San Francisco,Incoming,"This is an urgent warning, please evacuate immediately."
+6703,9235,2025-04-12 16:28:48.854265,54,Houston,Outgoing,Call me back when you get a chance.
+3877,6773,2025-03-30 12:06:48.854265,265,Seattle,Incoming,I left the documents on your desk.
+5667,6635,2025-03-30 03:34:48.854265,73,Chicago,Incoming,"There’s a serious issue, I need help now."
+5638,1877,2025-03-30 20:57:48.854265,437,San Francisco,Incoming,Stop bothering me or I’ll report this call.
+4986,1620,2025-04-14 16:31:48.854265,378,Los Angeles,Incoming,"This is an urgent warning, please evacuate immediately."
+5876,9259,2025-04-03 02:04:48.855264,402,Seattle,Incoming,Call me back when you get a chance.
+6668,3828,2025-04-09 19:23:48.855264,363,Los Angeles,Outgoing,"Everything went smoothly, I appreciate your support."
+2632,2853,2025-04-01 03:39:48.855264,169,Houston,Outgoing,"There’s a serious issue, I need help now."
+3641,2814,2025-04-21 16:09:48.855264,187,New York,Incoming,"You're doing a great job, keep it up."
+7913,2257,2025-04-19 10:10:48.855264,536,New York,Outgoing,Just wanted to say thank you for your help earlier!
+9614,4044,2025-03-28 08:22:48.855264,96,New York,Outgoing,"There’s a serious issue, I need help now."
+6059,2278,2025-03-30 11:18:48.855264,505,Chicago,Incoming,"You're doing a great job, keep it up."
+9750,9677,2025-04-04 20:39:48.855264,302,New York,Outgoing,Stop bothering me or I’ll report this call.
+6535,2218,2025-04-12 01:02:48.855264,486,New York,Incoming,Call me back when you get a chance.
+6596,7913,2025-03-25 17:09:48.855264,554,Chicago,Outgoing,Please confirm your availability for the meeting.
+6535,5476,2025-04-11 14:49:48.855264,392,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+2596,2441,2025-04-19 16:36:48.855264,187,Seattle,Incoming,I left the documents on your desk.
+5393,2814,2025-04-07 03:46:48.855264,288,New York,Outgoing,"You're doing a great job, keep it up."
+6782,1576,2025-03-26 16:33:48.855264,466,Seattle,Incoming,Please confirm your availability for the meeting.
+1125,7073,2025-03-31 05:41:48.855264,44,Houston,Incoming,"Everything went smoothly, I appreciate your support."
+9647,7507,2025-04-18 19:32:48.855264,367,San Francisco,Incoming,Please confirm your availability for the meeting.
+2218,3911,2025-04-05 05:17:48.855264,293,Los Angeles,Incoming,Just wanted to say thank you for your help earlier!
+2221,5783,2025-04-17 00:26:48.855264,64,New York,Incoming,"You're doing a great job, keep it up."
+4061,2496,2025-04-10 09:32:48.855264,75,San Francisco,Incoming,"Everything went smoothly, I appreciate your support."
+2945,1883,2025-04-02 06:47:48.855264,287,Seattle,Incoming,"This is an urgent warning, please evacuate immediately."
+4850,4636,2025-04-12 04:38:48.855264,30,San Francisco,Incoming,Please confirm your availability for the meeting.
+6782,2915,2025-04-08 02:35:48.855264,501,Houston,Outgoing,Stop bothering me or I’ll report this call.
+8982,5035,2025-04-03 20:40:48.855264,355,Chicago,Incoming,Please confirm your availability for the meeting.
+4346,6863,2025-03-29 20:01:48.855264,427,Seattle,Incoming,I left the documents on your desk.
+2221,7822,2025-04-02 02:22:48.855264,26,Houston,Incoming,Call me back when you get a chance.
+2278,2894,2025-04-05 11:24:48.855264,436,Seattle,Outgoing,I left the documents on your desk.
+8437,8982,2025-04-20 16:41:48.855264,260,New York,Incoming,"Everything went smoothly, I appreciate your support."
+2853,2249,2025-04-04 04:31:48.855264,126,San Francisco,Incoming,Call me back when you get a chance.
+5966,5038,2025-04-08 18:14:48.855264,545,Houston,Incoming,I left the documents on your desk.
+7100,2257,2025-04-04 23:56:48.855264,473,San Francisco,Outgoing,"Everything went smoothly, I appreciate your support."
+1815,4983,2025-04-20 01:05:48.855264,137,Boston,Incoming,Just wanted to say thank you for your help earlier!
+1883,5783,2025-04-01 17:40:48.855264,223,San Francisco,Outgoing,Just wanted to say thank you for your help earlier!
+6006,8952,2025-04-15 09:02:48.855264,250,Los Angeles,Incoming,"There’s a serious issue, I need help now."
+1815,6762,2025-04-23 04:28:48.855264,273,New York,Incoming,Call me back when you get a chance.
+5474,5904,2025-04-08 03:09:48.855264,585,San Francisco,Incoming,I left the documents on your desk.
+3291,5839,2025-04-01 02:09:48.855264,277,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+1172,4960,2025-04-16 01:32:48.855264,559,Boston,Outgoing,Call me back when you get a chance.
+5600,1917,2025-04-14 15:45:48.855264,432,Boston,Outgoing,Call me back when you get a chance.
+5173,5393,2025-04-24 00:56:48.855264,253,Boston,Outgoing,"You're doing a great job, keep it up."
+7812,5876,2025-04-03 15:53:48.855264,94,Chicago,Incoming,"Everything went smoothly, I appreciate your support."
+5540,2894,2025-04-02 21:05:48.855264,178,San Francisco,Incoming,Just wanted to say thank you for your help earlier!
+7332,4589,2025-04-19 21:30:48.855264,479,Boston,Incoming,"You're doing a great job, keep it up."
+2494,8065,2025-04-16 04:18:48.855264,100,Chicago,Incoming,Please confirm your availability for the meeting.
+1815,3000,2025-04-19 10:56:48.855264,390,Chicago,Incoming,Please confirm your availability for the meeting.
+4783,5173,2025-04-01 21:40:48.855264,110,Chicago,Incoming,Call me back when you get a chance.
+6773,9677,2025-04-14 01:56:48.855264,479,Chicago,Incoming,"This is an urgent warning, please evacuate immediately."
+2286,5966,2025-03-25 22:10:48.855264,233,Seattle,Incoming,Please confirm your availability for the meeting.
+5246,7822,2025-04-20 05:12:48.855264,319,Los Angeles,Outgoing,"You're doing a great job, keep it up."
+7696,7145,2025-04-01 16:54:48.855264,14,Seattle,Outgoing,Call me back when you get a chance.
+2711,6635,2025-03-25 03:39:48.855264,134,Boston,Incoming,Call me back when you get a chance.
+3484,7522,2025-04-14 20:39:48.855264,401,Los Angeles,Outgoing,Please confirm your availability for the meeting.
+4666,9734,2025-04-09 08:45:48.855264,108,Boston,Outgoing,Please confirm your availability for the meeting.
+1883,2681,2025-04-11 21:22:48.855264,99,Houston,Incoming,"This is an urgent warning, please evacuate immediately."
+3500,9925,2025-04-15 06:43:48.855264,120,New York,Outgoing,"Everything went smoothly, I appreciate your support."
+8548,7754,2025-04-11 19:03:48.855264,454,Seattle,Outgoing,I left the documents on your desk.
+3877,4346,2025-04-17 07:46:48.855264,589,Chicago,Outgoing,"You're doing a great job, keep it up."
+6755,4443,2025-04-01 10:39:48.855264,407,Los Angeles,Outgoing,Call me back when you get a chance.
+5246,1422,2025-04-13 20:54:48.855264,598,Houston,Incoming,Just wanted to say thank you for your help earlier!
+4341,3789,2025-04-12 22:20:48.855264,535,Los Angeles,Outgoing,"Everything went smoothly, I appreciate your support."
+9484,1264,2025-04-04 00:00:48.855264,262,Seattle,Incoming,Stop bothering me or I’ll report this call.
+1998,2249,2025-03-26 08:16:48.855264,271,Los Angeles,Incoming,Just wanted to say thank you for your help earlier!
+8521,9240,2025-04-14 04:10:48.855264,203,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+6062,4986,2025-04-13 02:15:48.855264,285,Boston,Outgoing,"Everything went smoothly, I appreciate your support."
+2572,4202,2025-03-28 15:34:48.855264,175,San Francisco,Outgoing,Call me back when you get a chance.
+7177,9126,2025-03-30 03:25:48.855264,402,Chicago,Incoming,Just wanted to say thank you for your help earlier!
+6782,8525,2025-04-14 13:21:48.855264,406,Chicago,Incoming,"This is an urgent warning, please evacuate immediately."
+9750,1439,2025-04-06 11:49:48.855264,56,Boston,Outgoing,"There’s a serious issue, I need help now."
+8998,8525,2025-04-05 16:47:48.855264,444,San Francisco,Outgoing,"You're doing a great job, keep it up."
+7913,5733,2025-04-15 21:19:48.855264,469,Seattle,Outgoing,I left the documents on your desk.
+7901,1883,2025-04-19 21:07:48.855264,402,Boston,Incoming,"There’s a serious issue, I need help now."
+8952,5888,2025-04-12 15:34:48.855264,331,Chicago,Outgoing,Call me back when you get a chance.
+5665,8725,2025-04-18 22:47:48.855264,496,New York,Incoming,Stop bothering me or I’ll report this call.
+6508,6992,2025-04-22 00:41:48.855264,291,Houston,Incoming,Call me back when you get a chance.
+8570,9142,2025-04-14 18:16:48.855264,426,Boston,Outgoing,Please confirm your availability for the meeting.
+9994,8548,2025-04-06 08:44:48.855264,321,New York,Outgoing,Please confirm your availability for the meeting.
+5256,3654,2025-03-31 07:39:48.855264,414,Boston,Incoming,Please confirm your availability for the meeting.
+3893,3380,2025-04-07 10:57:48.855264,218,Los Angeles,Outgoing,"This is an urgent warning, please evacuate immediately."
+5246,4067,2025-04-06 19:00:48.855264,590,San Francisco,Outgoing,"There’s a serious issue, I need help now."
+3406,7177,2025-04-04 20:31:48.855264,312,Chicago,Incoming,Stop bothering me or I’ll report this call.
+2493,3147,2025-04-21 08:44:48.855264,84,Houston,Outgoing,I left the documents on your desk.
+4960,7812,2025-04-05 23:40:48.855264,57,Seattle,Outgoing,"Everything went smoothly, I appreciate your support."
+3500,8079,2025-04-09 18:11:48.855264,190,New York,Outgoing,Stop bothering me or I’ll report this call.
+3893,9719,2025-03-28 08:42:48.855264,102,Chicago,Incoming,Call me back when you get a chance.
+6059,5600,2025-04-19 03:00:48.855264,402,Seattle,Incoming,"Everything went smoothly, I appreciate your support."
+1762,9950,2025-04-04 02:09:48.855264,181,Seattle,Outgoing,Call me back when you get a chance.
+7464,6508,2025-04-08 05:19:48.855264,368,Boston,Incoming,Please confirm your availability for the meeting.
+8982,5733,2025-04-11 04:48:48.855264,454,Chicago,Incoming,Call me back when you get a chance.
+9845,5952,2025-04-02 17:21:48.855264,297,Boston,Incoming,Please confirm your availability for the meeting.
+6508,6703,2025-03-27 08:21:48.855264,263,Seattle,Incoming,Please confirm your availability for the meeting.
+8065,8998,2025-04-14 09:43:48.855264,165,Houston,Incoming,Please confirm your availability for the meeting.
+5474,3582,2025-04-12 20:20:48.855264,83,San Francisco,Incoming,Please confirm your availability for the meeting.
+3003,5246,2025-04-09 10:29:48.855264,129,Seattle,Outgoing,Please confirm your availability for the meeting.
+7069,7464,2025-04-04 00:49:48.855264,145,Chicago,Incoming,"Everything went smoothly, I appreciate your support."
+7293,8570,2025-04-09 22:07:48.855264,331,New York,Outgoing,"This is an urgent warning, please evacuate immediately."
+4019,8177,2025-04-22 08:26:48.855264,540,San Francisco,Outgoing,Stop bothering me or I’ll report this call.
+3730,7507,2025-04-03 08:30:48.855264,153,Seattle,Outgoing,Please confirm your availability for the meeting.
+2711,3922,2025-04-01 07:01:48.855264,102,Boston,Incoming,Stop bothering me or I’ll report this call.
+6700,5952,2025-04-01 18:44:48.855264,271,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+9734,3600,2025-03-27 18:34:48.855264,536,San Francisco,Outgoing,Please confirm your availability for the meeting.
+1802,1883,2025-04-01 23:43:48.855264,60,Seattle,Incoming,"There’s a serious issue, I need help now."
+2218,3207,2025-03-31 19:47:48.855264,21,Los Angeles,Incoming,I left the documents on your desk.
+8525,9764,2025-04-11 19:53:48.855264,516,Houston,Outgoing,"There’s a serious issue, I need help now."
+7901,2853,2025-04-01 08:34:48.855264,472,Los Angeles,Outgoing,Stop bothering me or I’ll report this call.
+5876,9235,2025-04-10 04:59:48.855264,371,Chicago,Incoming,Call me back when you get a chance.
+7100,3886,2025-04-18 04:43:48.855264,416,New York,Incoming,I left the documents on your desk.
+5156,8455,2025-04-19 14:03:48.855264,252,Seattle,Outgoing,Please confirm your availability for the meeting.
+8437,5365,2025-04-15 22:13:48.855264,157,Boston,Incoming,Call me back when you get a chance.
+5393,2797,2025-03-25 22:55:48.855264,56,New York,Outgoing,"Everything went smoothly, I appreciate your support."
+7812,3500,2025-04-14 22:51:48.855264,311,San Francisco,Outgoing,Stop bothering me or I’ll report this call.
+4642,2257,2025-04-20 01:35:48.855264,584,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+1802,5294,2025-04-09 17:36:48.855264,285,Seattle,Outgoing,"This is an urgent warning, please evacuate immediately."
+7177,9950,2025-03-24 16:35:48.855264,513,San Francisco,Incoming,"This is an urgent warning, please evacuate immediately."
+8969,1169,2025-04-03 20:35:48.855264,66,Houston,Incoming,"Everything went smoothly, I appreciate your support."
+3877,6895,2025-04-24 01:51:48.855264,407,San Francisco,Outgoing,"You're doing a great job, keep it up."
+2441,2286,2025-03-27 13:19:48.855264,411,Chicago,Incoming,"You're doing a great job, keep it up."
+4850,7007,2025-03-30 16:44:48.855264,148,Chicago,Incoming,Call me back when you get a chance.
+7069,5108,2025-04-20 10:02:48.855264,379,Seattle,Outgoing,"You're doing a great job, keep it up."
+7800,4960,2025-04-10 21:42:48.855264,88,Boston,Incoming,Please confirm your availability for the meeting.
+4267,2945,2025-04-14 19:22:48.855264,201,New York,Incoming,Please confirm your availability for the meeting.
+6545,2441,2025-03-28 10:14:48.855264,543,Houston,Incoming,"You're doing a great job, keep it up."
+2797,6773,2025-03-31 04:40:48.855264,355,Houston,Incoming,Call me back when you get a chance.
+8437,2249,2025-04-13 08:05:48.855264,87,Seattle,Incoming,I left the documents on your desk.
+3351,2221,2025-03-24 21:07:48.855264,267,Seattle,Incoming,Call me back when you get a chance.
+6895,1284,2025-04-18 09:13:48.855264,78,New York,Outgoing,Please confirm your availability for the meeting.
+2494,7754,2025-03-27 02:33:48.855264,256,New York,Incoming,Call me back when you get a chance.
+4129,4115,2025-03-25 19:12:48.855264,104,New York,Incoming,"This is an urgent warning, please evacuate immediately."
+9647,3291,2025-03-25 18:13:48.855264,265,Houston,Outgoing,Please confirm your availability for the meeting.
+5637,6776,2025-03-28 20:21:48.855264,151,New York,Outgoing,I left the documents on your desk.
+8969,6972,2025-03-27 20:12:48.855264,234,Houston,Outgoing,Please confirm your availability for the meeting.
+5962,9931,2025-04-05 10:19:48.855264,113,Los Angeles,Incoming,"You're doing a great job, keep it up."
+3147,9324,2025-04-15 22:54:48.855264,202,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+6895,7293,2025-04-12 16:17:48.855264,477,Seattle,Incoming,Please confirm your availability for the meeting.
+8266,9613,2025-04-21 07:19:48.855264,302,New York,Incoming,"There’s a serious issue, I need help now."
+2797,1555,2025-04-11 22:38:48.855264,216,San Francisco,Outgoing,Please confirm your availability for the meeting.
+9614,4209,2025-03-29 17:21:48.855264,170,Boston,Incoming,"You're doing a great job, keep it up."
+3988,6668,2025-04-02 14:31:48.855264,500,Seattle,Incoming,Call me back when you get a chance.
+9413,3789,2025-04-17 21:28:48.855264,159,Boston,Outgoing,I left the documents on your desk.
+2573,3187,2025-03-28 19:53:48.855264,595,San Francisco,Outgoing,Please confirm your availability for the meeting.
+3896,6808,2025-04-06 19:32:48.855264,524,San Francisco,Outgoing,Just wanted to say thank you for your help earlier!
+1998,7925,2025-03-26 22:32:48.855264,559,Houston,Incoming,I left the documents on your desk.
+9750,3032,2025-04-09 09:44:48.855264,168,Boston,Incoming,"There’s a serious issue, I need help now."
+5839,3534,2025-04-20 12:19:48.855264,431,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+6700,2493,2025-03-26 17:35:48.855264,507,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+7812,2853,2025-04-01 07:44:48.855264,579,Chicago,Incoming,Stop bothering me or I’ll report this call.
+9613,9647,2025-03-26 03:48:48.855264,412,Boston,Incoming,"You're doing a great job, keep it up."
+4986,8998,2025-04-19 06:51:48.855264,126,Los Angeles,Incoming,Please confirm your availability for the meeting.
+9931,8550,2025-03-26 22:28:48.855264,171,Boston,Outgoing,Just wanted to say thank you for your help earlier!
+5876,2182,2025-04-20 13:23:48.855264,507,Houston,Incoming,"You're doing a great job, keep it up."
+3291,8963,2025-03-31 19:25:48.855264,452,Houston,Outgoing,"Everything went smoothly, I appreciate your support."
+7332,6640,2025-04-10 00:39:48.855264,219,Houston,Incoming,Stop bothering me or I’ll report this call.
+9867,8177,2025-03-26 14:15:48.855264,275,Chicago,Outgoing,Just wanted to say thank you for your help earlier!
+5901,1518,2025-04-07 04:17:48.855264,453,Houston,Incoming,Stop bothering me or I’ll report this call.
+4283,4589,2025-03-27 17:59:48.855264,20,New York,Outgoing,"You're doing a great job, keep it up."
+4067,7879,2025-04-17 06:16:48.855264,45,Houston,Outgoing,I left the documents on your desk.
+2596,3877,2025-04-07 01:35:48.855264,553,Chicago,Incoming,Just wanted to say thank you for your help earlier!
+5994,1762,2025-04-14 17:19:48.855264,382,New York,Incoming,"Everything went smoothly, I appreciate your support."
+6895,2221,2025-04-08 10:24:48.855264,57,New York,Incoming,Please confirm your availability for the meeting.
+1877,5474,2025-04-18 16:35:48.855264,560,Boston,Outgoing,Just wanted to say thank you for your help earlier!
+7822,9073,2025-04-18 22:34:48.855264,366,Chicago,Incoming,"You're doing a great job, keep it up."
+2249,6327,2025-04-06 08:11:48.855264,563,Houston,Incoming,Call me back when you get a chance.
+1125,1569,2025-03-27 16:15:48.855264,456,Chicago,Outgoing,Stop bothering me or I’ll report this call.
+5962,9235,2025-04-19 23:03:48.855264,236,Houston,Incoming,"Everything went smoothly, I appreciate your support."
+7307,4115,2025-04-12 04:10:48.855264,596,Boston,Incoming,"Everything went smoothly, I appreciate your support."
+5730,3484,2025-04-03 11:09:48.855264,29,Boston,Outgoing,I left the documents on your desk.
+5730,9153,2025-03-24 18:37:48.855264,451,Los Angeles,Incoming,"There’s a serious issue, I need help now."
+3828,1169,2025-04-04 00:31:48.855264,236,Boston,Incoming,I left the documents on your desk.
+8177,8437,2025-04-21 14:30:48.856263,456,Boston,Outgoing,I left the documents on your desk.
+4267,3534,2025-03-26 02:10:48.856263,180,Chicago,Outgoing,Call me back when you get a chance.
+6315,3484,2025-04-05 21:31:48.856263,290,Seattle,Outgoing,"This is an urgent warning, please evacuate immediately."
+2159,9262,2025-04-23 17:34:48.856263,515,San Francisco,Outgoing,Please confirm your availability for the meeting.
+9126,9994,2025-04-20 17:53:48.856263,595,Los Angeles,Outgoing,"This is an urgent warning, please evacuate immediately."
+5246,4536,2025-04-06 12:49:48.856263,81,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+1815,5246,2025-03-28 10:41:48.856263,119,Los Angeles,Incoming,Call me back when you get a chance.
+5901,2938,2025-04-08 21:28:48.856263,145,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+2033,8259,2025-04-13 00:47:48.856263,576,Chicago,Incoming,"There’s a serious issue, I need help now."
+6782,7332,2025-04-15 15:22:48.856263,419,San Francisco,Outgoing,"There’s a serious issue, I need help now."
+7399,5665,2025-04-12 23:39:48.856263,253,Houston,Incoming,"You're doing a great job, keep it up."
+2143,4454,2025-04-15 07:58:48.856263,346,San Francisco,Incoming,Please confirm your availability for the meeting.
+2218,9845,2025-04-14 04:13:48.856263,476,San Francisco,Outgoing,"There’s a serious issue, I need help now."
+4209,9677,2025-04-01 09:43:48.856263,215,Houston,Outgoing,"Everything went smoothly, I appreciate your support."
+3985,2435,2025-04-19 21:18:48.856263,544,Chicago,Incoming,"You're doing a great job, keep it up."
+1917,6545,2025-04-10 22:01:48.856263,335,Boston,Outgoing,"There’s a serious issue, I need help now."
+4783,5637,2025-04-24 02:38:48.856263,402,Houston,Outgoing,Call me back when you get a chance.
+8158,8065,2025-03-25 11:31:48.856263,38,Chicago,Incoming,Stop bothering me or I’ll report this call.
+9647,1762,2025-03-29 22:12:48.856263,536,Houston,Incoming,I left the documents on your desk.
+1486,4443,2025-04-15 07:49:48.856263,491,Seattle,Incoming,Call me back when you get a chance.
+5994,3534,2025-04-21 19:13:48.856263,61,Houston,Outgoing,Call me back when you get a chance.
+4325,1457,2025-03-29 02:00:48.856263,119,Chicago,Outgoing,"There’s a serious issue, I need help now."
+5446,2429,2025-04-11 06:46:48.856263,355,Seattle,Outgoing,"Everything went smoothly, I appreciate your support."
+4129,6762,2025-03-25 16:10:48.856263,494,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+3911,5256,2025-04-04 10:14:48.856263,301,Seattle,Outgoing,I left the documents on your desk.
+3187,1078,2025-04-16 12:02:48.856263,121,San Francisco,Incoming,"This is an urgent warning, please evacuate immediately."
+2085,9413,2025-04-09 02:19:48.856263,76,Los Angeles,Incoming,Call me back when you get a chance.
+3290,5665,2025-04-15 20:02:48.856263,290,Seattle,Incoming,Please confirm your availability for the meeting.
+7958,5015,2025-04-01 07:00:48.856263,316,San Francisco,Outgoing,"You're doing a great job, keep it up."
+2033,1877,2025-04-16 22:29:48.856263,32,Boston,Outgoing,"There’s a serious issue, I need help now."
+6776,6315,2025-04-09 21:41:48.856263,225,Chicago,Incoming,Please confirm your availability for the meeting.
+3291,9240,2025-04-22 23:18:48.856263,343,Boston,Outgoing,I left the documents on your desk.
+4346,2085,2025-03-24 15:45:48.856263,600,Seattle,Outgoing,Just wanted to say thank you for your help earlier!
+1264,5474,2025-03-28 23:38:48.856263,552,Houston,Incoming,Please confirm your availability for the meeting.
+7958,9153,2025-04-21 13:45:48.856263,171,New York,Incoming,"This is an urgent warning, please evacuate immediately."
+2218,8266,2025-04-10 22:03:48.856263,80,Boston,Outgoing,Stop bothering me or I’ll report this call.
+4986,2257,2025-04-22 12:32:48.856263,311,San Francisco,Outgoing,I left the documents on your desk.
+3406,5474,2025-04-13 08:43:48.856263,360,New York,Incoming,Call me back when you get a chance.
+4589,5600,2025-03-29 13:20:48.856263,373,San Francisco,Incoming,Please confirm your availability for the meeting.
+6808,4774,2025-04-19 04:24:48.856263,249,Boston,Outgoing,Call me back when you get a chance.
+2579,1998,2025-04-07 10:00:48.856263,529,Seattle,Outgoing,"This is an urgent warning, please evacuate immediately."
+9396,3654,2025-04-12 23:42:48.856263,187,New York,Incoming,"You're doing a great job, keep it up."
+2681,2278,2025-04-19 03:10:48.856263,418,New York,Outgoing,I left the documents on your desk.
+2573,5256,2025-04-08 21:12:48.856263,366,San Francisco,Outgoing,Please confirm your availability for the meeting.
+3985,1264,2025-03-24 10:57:48.856263,454,Houston,Outgoing,Stop bothering me or I’ll report this call.
+4115,5966,2025-03-31 16:20:48.856263,321,New York,Outgoing,Call me back when you get a chance.
+7100,9324,2025-04-04 15:18:48.856263,398,Seattle,Incoming,"There’s a serious issue, I need help now."
+6656,2278,2025-04-06 05:22:48.856263,236,Houston,Incoming,Just wanted to say thank you for your help earlier!
+6656,5904,2025-04-03 09:51:48.856263,271,Houston,Incoming,"You're doing a great job, keep it up."
+7069,7854,2025-03-29 16:14:48.856263,552,San Francisco,Incoming,Call me back when you get a chance.
+7913,4642,2025-04-23 08:07:48.856263,93,Seattle,Outgoing,"This is an urgent warning, please evacuate immediately."
+5638,9073,2025-03-28 11:25:48.856263,530,New York,Outgoing,Please confirm your availability for the meeting.
+6656,2218,2025-04-04 00:43:48.856263,313,San Francisco,Incoming,Please confirm your availability for the meeting.
+9142,7293,2025-04-09 23:24:48.856263,588,San Francisco,Incoming,Stop bothering me or I’ll report this call.
+7522,9734,2025-04-10 16:40:48.856263,520,San Francisco,Outgoing,Just wanted to say thank you for your help earlier!
+2264,3538,2025-04-16 20:26:48.856263,271,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+1125,9413,2025-04-03 06:14:48.856263,26,Seattle,Outgoing,"Everything went smoothly, I appreciate your support."
+1518,5984,2025-04-13 14:10:48.856263,371,Chicago,Incoming,"You're doing a great job, keep it up."
+9484,2632,2025-03-29 18:47:48.856263,433,Los Angeles,Outgoing,"This is an urgent warning, please evacuate immediately."
+5474,1762,2025-04-22 04:57:48.856263,31,San Francisco,Incoming,Stop bothering me or I’ll report this call.
+6808,4783,2025-03-29 18:42:48.856263,36,New York,Incoming,"You're doing a great job, keep it up."
+1518,2427,2025-04-06 01:15:48.856263,533,Chicago,Outgoing,"You're doing a great job, keep it up."
+7293,6545,2025-04-22 20:23:48.856263,337,Los Angeles,Outgoing,Stop bothering me or I’ll report this call.
+5056,2938,2025-03-25 09:06:48.856263,37,Boston,Outgoing,Stop bothering me or I’ll report this call.
+7406,1457,2025-03-29 11:59:48.856263,249,Houston,Outgoing,"You're doing a great job, keep it up."
+4850,6762,2025-04-13 14:19:48.856263,227,Chicago,Outgoing,"There’s a serious issue, I need help now."
+3291,9396,2025-03-29 05:00:48.856263,424,Chicago,Outgoing,Call me back when you get a chance.
+5637,3785,2025-04-17 08:39:48.856263,68,Chicago,Outgoing,Just wanted to say thank you for your help earlier!
+3985,2671,2025-04-20 14:03:48.856263,156,Houston,Incoming,"This is an urgent warning, please evacuate immediately."
+6635,4061,2025-04-06 07:27:48.856263,233,Los Angeles,Outgoing,Stop bothering me or I’ll report this call.
+3663,8266,2025-04-08 02:09:48.856263,143,San Francisco,Outgoing,"This is an urgent warning, please evacuate immediately."
+5904,1078,2025-04-01 18:26:48.856263,558,New York,Incoming,Stop bothering me or I’ll report this call.
+1518,8998,2025-03-31 19:00:48.856263,195,Houston,Outgoing,Stop bothering me or I’ll report this call.
+3789,5876,2025-04-02 08:45:48.856263,509,Houston,Incoming,"There’s a serious issue, I need help now."
+3554,4783,2025-04-06 20:20:48.856263,356,Boston,Outgoing,Please confirm your availability for the meeting.
+2572,5665,2025-04-10 10:09:48.856263,73,Houston,Outgoing,"This is an urgent warning, please evacuate immediately."
+9943,4115,2025-04-14 10:24:48.856263,22,Seattle,Incoming,"There’s a serious issue, I need help now."
+6755,2711,2025-04-16 11:48:48.856263,362,San Francisco,Incoming,Just wanted to say thank you for your help earlier!
+9488,2938,2025-04-18 04:04:48.856263,127,Houston,Outgoing,"Everything went smoothly, I appreciate your support."
+2494,7812,2025-04-14 09:57:48.856263,269,Los Angeles,Outgoing,"There’s a serious issue, I need help now."
+2033,4023,2025-03-28 04:57:48.856263,180,Chicago,Incoming,Just wanted to say thank you for your help earlier!
+5294,9259,2025-03-24 17:16:48.856263,67,New York,Incoming,"Everything went smoothly, I appreciate your support."
+3911,6062,2025-04-14 09:23:48.856263,403,San Francisco,Outgoing,"This is an urgent warning, please evacuate immediately."
+6596,1446,2025-04-06 06:39:48.856263,481,Chicago,Incoming,"There’s a serious issue, I need help now."
+2189,8887,2025-04-24 07:29:48.856263,91,Houston,Outgoing,"This is an urgent warning, please evacuate immediately."
+7464,4069,2025-04-19 22:59:48.856263,82,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+2249,9931,2025-04-17 22:44:48.856263,80,San Francisco,Outgoing,I left the documents on your desk.
+6776,9614,2025-04-20 14:45:48.856263,221,New York,Incoming,Please confirm your availability for the meeting.
+3600,7958,2025-04-15 04:24:48.856263,99,Boston,Outgoing,Please confirm your availability for the meeting.
+1762,9845,2025-04-17 05:44:48.856263,339,Los Angeles,Outgoing,I left the documents on your desk.
+6292,5038,2025-04-11 13:04:48.856263,183,Houston,Incoming,Stop bothering me or I’ll report this call.
+2278,1620,2025-04-05 22:15:48.856263,170,Chicago,Incoming,"There’s a serious issue, I need help now."
+1620,2218,2025-04-15 01:46:48.856263,362,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+2218,2033,2025-03-26 17:27:48.856263,449,Los Angeles,Incoming,Call me back when you get a chance.
+6992,6062,2025-04-11 18:16:48.856263,498,Seattle,Incoming,Just wanted to say thank you for your help earlier!
+5173,6762,2025-04-22 14:31:48.856263,431,Seattle,Outgoing,Please confirm your availability for the meeting.
+5733,5365,2025-03-26 21:34:48.856263,498,San Francisco,Incoming,Just wanted to say thank you for your help earlier!
+1877,2919,2025-03-30 05:13:48.856263,251,San Francisco,Outgoing,Please confirm your availability for the meeting.
+9734,8521,2025-03-26 08:40:48.856263,229,Chicago,Outgoing,I left the documents on your desk.
+6521,1078,2025-03-26 08:26:48.856263,500,Houston,Outgoing,Stop bothering me or I’ll report this call.
+2814,1620,2025-03-30 10:46:48.856263,453,Houston,Outgoing,Just wanted to say thank you for your help earlier!
+5994,1125,2025-04-23 09:38:48.856263,495,New York,Outgoing,"Everything went smoothly, I appreciate your support."
+4983,2345,2025-04-05 06:19:48.856263,58,New York,Outgoing,"This is an urgent warning, please evacuate immediately."
+9126,4115,2025-04-04 14:24:48.856263,204,Los Angeles,Incoming,Call me back when you get a chance.
+9613,7696,2025-04-02 01:02:48.856263,210,New York,Incoming,"There’s a serious issue, I need help now."
+2797,2919,2025-04-20 16:08:48.856263,330,New York,Incoming,Just wanted to say thank you for your help earlier!
+3877,1457,2025-04-09 16:10:48.856263,62,Boston,Outgoing,Just wanted to say thank you for your help earlier!
+3500,9884,2025-04-02 20:01:48.856263,508,San Francisco,Incoming,I left the documents on your desk.
+2496,1139,2025-04-13 23:17:48.856263,571,Chicago,Outgoing,Call me back when you get a chance.
+1446,6656,2025-04-02 02:38:48.856263,530,Chicago,Incoming,"Everything went smoothly, I appreciate your support."
+5966,3985,2025-04-05 23:09:48.856263,285,Boston,Incoming,Stop bothering me or I’ll report this call.
+6596,2182,2025-04-22 15:37:48.856263,487,Houston,Outgoing,I left the documents on your desk.
+9764,6640,2025-04-08 10:39:48.856263,430,Boston,Outgoing,"This is an urgent warning, please evacuate immediately."
+3207,9994,2025-04-15 01:32:48.856263,450,Houston,Incoming,"There’s a serious issue, I need help now."
+2429,6956,2025-04-08 09:25:48.856263,98,Chicago,Incoming,"You're doing a great job, keep it up."
+4642,3147,2025-03-28 12:12:48.856263,433,New York,Outgoing,"This is an urgent warning, please evacuate immediately."
+6038,6292,2025-03-28 05:40:48.856263,48,Boston,Incoming,I left the documents on your desk.
+1338,4061,2025-04-02 00:23:48.856263,490,Boston,Incoming,Please confirm your availability for the meeting.
+9262,5901,2025-03-24 13:01:48.856263,483,Houston,Outgoing,Stop bothering me or I’ll report this call.
+9845,1518,2025-04-10 19:18:48.856263,511,Chicago,Outgoing,Stop bothering me or I’ll report this call.
+3380,1457,2025-03-25 06:20:48.856263,302,Houston,Outgoing,Please confirm your availability for the meeting.
+7145,9413,2025-04-20 06:43:48.856263,15,San Francisco,Incoming,"There’s a serious issue, I need help now."
+3527,8177,2025-04-23 09:31:48.856263,594,Boston,Outgoing,"This is an urgent warning, please evacuate immediately."
+4219,3654,2025-04-10 05:18:48.856263,39,Chicago,Incoming,Call me back when you get a chance.
+6315,5952,2025-04-17 03:36:48.856263,111,Los Angeles,Incoming,Call me back when you get a chance.
+1439,3147,2025-04-02 02:04:48.856263,84,Chicago,Outgoing,"You're doing a great job, keep it up."
+9647,6153,2025-04-24 04:39:48.856263,321,New York,Incoming,Just wanted to say thank you for your help earlier!
+1284,3290,2025-04-09 02:29:48.856263,563,New York,Outgoing,Call me back when you get a chance.
+4590,5474,2025-04-04 19:21:48.856263,366,New York,Incoming,Please confirm your availability for the meeting.
+1078,2945,2025-04-08 07:01:48.857263,244,Boston,Outgoing,"There’s a serious issue, I need help now."
+1620,3406,2025-04-04 00:14:48.857263,62,Los Angeles,Outgoing,I left the documents on your desk.
+4774,7100,2025-03-31 08:40:48.857263,595,Los Angeles,Incoming,Please confirm your availability for the meeting.
+7879,8525,2025-04-15 03:59:48.857263,556,New York,Outgoing,I left the documents on your desk.
+3886,4346,2025-04-05 03:40:48.857263,370,Boston,Outgoing,"You're doing a great job, keep it up."
+2143,6292,2025-03-30 01:30:48.857263,192,Seattle,Incoming,I left the documents on your desk.
+4129,2218,2025-04-02 15:12:48.857263,384,San Francisco,Incoming,I left the documents on your desk.
+1917,1338,2025-04-23 08:02:48.857263,150,Los Angeles,Outgoing,Please confirm your availability for the meeting.
+3988,2853,2025-04-07 09:07:48.857263,557,San Francisco,Outgoing,I left the documents on your desk.
+5108,4783,2025-03-25 10:56:48.857263,445,Chicago,Incoming,"There’s a serious issue, I need help now."
+6852,3484,2025-04-14 07:49:48.857263,497,Seattle,Outgoing,Just wanted to say thank you for your help earlier!
+9142,8259,2025-04-11 23:22:48.857263,215,Houston,Outgoing,"You're doing a great job, keep it up."
+3003,6596,2025-04-14 18:15:48.857263,59,New York,Outgoing,"There’s a serious issue, I need help now."
+2945,7037,2025-03-26 23:40:48.857263,144,San Francisco,Incoming,"You're doing a great job, keep it up."
+2264,1486,2025-04-02 14:12:48.857263,127,New York,Incoming,"You're doing a great job, keep it up."
+6538,6782,2025-04-09 05:49:48.857263,446,Boston,Outgoing,Stop bothering me or I’ll report this call.
+6545,4986,2025-03-27 22:09:48.857263,356,New York,Outgoing,"There’s a serious issue, I need help now."
+7464,3000,2025-04-03 01:31:48.857263,562,Houston,Outgoing,Call me back when you get a chance.
+6575,1125,2025-04-12 09:40:48.857263,28,Chicago,Outgoing,"There’s a serious issue, I need help now."
+2109,9073,2025-03-27 09:09:48.857263,195,Seattle,Incoming,Just wanted to say thank you for your help earlier!
+4774,6535,2025-04-13 07:03:48.857263,213,Houston,Incoming,Stop bothering me or I’ll report this call.
+2573,2143,2025-04-03 14:10:48.857263,526,San Francisco,Incoming,"This is an urgent warning, please evacuate immediately."
+9262,4443,2025-04-01 07:07:48.857263,436,Los Angeles,Incoming,Call me back when you get a chance.
+3582,1264,2025-03-28 03:37:48.857263,142,Los Angeles,Outgoing,"You're doing a great job, keep it up."
+1917,1518,2025-04-02 20:47:48.857263,58,Houston,Incoming,Please confirm your availability for the meeting.
+4219,3406,2025-04-08 12:41:48.857263,159,Los Angeles,Outgoing,Stop bothering me or I’ll report this call.
+2493,6656,2025-04-12 06:19:48.857263,460,Chicago,Incoming,Please confirm your availability for the meeting.
+1998,7913,2025-04-19 14:03:48.857263,277,San Francisco,Incoming,Call me back when you get a chance.
+7696,7942,2025-04-02 01:50:48.857263,270,New York,Outgoing,"There’s a serious issue, I need help now."
+9884,9647,2025-04-18 20:22:48.857263,153,Houston,Outgoing,Call me back when you get a chance.
+6808,5173,2025-04-02 07:53:48.857263,31,San Francisco,Outgoing,"There’s a serious issue, I need help now."
+2797,1422,2025-04-23 01:06:48.857263,171,New York,Outgoing,Stop bothering me or I’ll report this call.
+2711,5638,2025-04-21 00:47:48.857263,124,Chicago,Incoming,Please confirm your availability for the meeting.
+2278,8525,2025-04-02 20:10:48.857263,347,Chicago,Outgoing,Please confirm your availability for the meeting.
+5888,4346,2025-03-27 18:26:48.857263,359,Boston,Outgoing,"This is an urgent warning, please evacuate immediately."
+4590,5173,2025-04-15 20:53:48.857263,560,Seattle,Incoming,Stop bothering me or I’ll report this call.
+7696,1486,2025-04-02 05:20:48.857263,263,Los Angeles,Incoming,Call me back when you get a chance.
+4346,7854,2025-04-06 06:11:48.857263,466,New York,Outgoing,Call me back when you get a chance.
+5015,4666,2025-04-01 02:25:48.857263,368,Chicago,Outgoing,I left the documents on your desk.
+2596,8177,2025-04-09 13:50:48.857263,567,Boston,Incoming,Call me back when you get a chance.
+4642,7812,2025-04-12 08:47:48.857263,400,Houston,Incoming,Call me back when you get a chance.
+4129,9614,2025-04-16 09:59:48.857263,419,Chicago,Incoming,Just wanted to say thank you for your help earlier!
+9413,5901,2025-03-25 13:37:48.857263,353,Chicago,Outgoing,Call me back when you get a chance.
+2278,7812,2025-04-06 10:03:48.857263,338,San Francisco,Outgoing,"You're doing a great job, keep it up."
+9126,5876,2025-04-22 04:38:48.857263,563,Boston,Incoming,"Everything went smoothly, I appreciate your support."
+8301,3785,2025-04-07 20:16:48.857263,177,Boston,Incoming,Please confirm your availability for the meeting.
+4986,2278,2025-03-31 04:45:48.857263,545,Boston,Incoming,"You're doing a great job, keep it up."
+9357,3500,2025-03-26 05:51:48.857263,534,New York,Outgoing,"You're doing a great job, keep it up."
+3212,6656,2025-03-28 17:17:48.857263,263,Boston,Outgoing,Just wanted to say thank you for your help earlier!
+1922,4666,2025-04-13 10:58:48.857263,414,New York,Outgoing,Just wanted to say thank you for your help earlier!
+9613,6755,2025-04-21 19:18:48.857263,508,Los Angeles,Outgoing,"This is an urgent warning, please evacuate immediately."
+7507,5968,2025-03-30 05:40:48.857263,549,Houston,Outgoing,Stop bothering me or I’ll report this call.
+9262,4346,2025-04-12 12:37:48.857263,529,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+3351,2945,2025-03-26 16:20:48.857263,207,San Francisco,Outgoing,Please confirm your availability for the meeting.
+8548,5476,2025-03-27 06:34:48.857263,443,Houston,Incoming,"You're doing a great job, keep it up."
+5056,1998,2025-04-15 10:51:48.857263,380,Seattle,Incoming,Just wanted to say thank you for your help earlier!
+3988,5730,2025-04-16 12:06:48.857263,266,Seattle,Incoming,"There’s a serious issue, I need help now."
+9845,1139,2025-04-21 08:59:48.857263,20,Seattle,Incoming,"There’s a serious issue, I need help now."
+1318,2085,2025-04-10 13:04:48.857263,105,Seattle,Incoming,Please confirm your availability for the meeting.
+8259,8065,2025-03-31 07:22:48.857263,186,Los Angeles,Incoming,Please confirm your availability for the meeting.
+6575,2441,2025-03-24 18:03:48.857263,323,Seattle,Incoming,Stop bothering me or I’ll report this call.
+8231,6762,2025-03-24 23:12:48.857263,54,Houston,Incoming,Please confirm your availability for the meeting.
+9931,2221,2025-04-15 02:16:48.857263,68,Seattle,Incoming,Just wanted to say thank you for your help earlier!
+2264,5246,2025-04-05 01:33:48.857263,373,New York,Incoming,Just wanted to say thank you for your help earlier!
+2938,7925,2025-04-20 04:20:48.857263,321,Seattle,Incoming,"Everything went smoothly, I appreciate your support."
+1078,6575,2025-04-08 19:11:48.857263,410,New York,Incoming,I left the documents on your desk.
+2085,8952,2025-03-24 14:08:48.857263,420,Los Angeles,Incoming,Stop bothering me or I’ll report this call.
+2286,3789,2025-03-26 14:36:48.858266,242,Chicago,Incoming,"Everything went smoothly, I appreciate your support."
+7879,8969,2025-04-20 14:06:48.858266,53,New York,Outgoing,I left the documents on your desk.
+3290,6640,2025-03-30 18:57:48.858266,145,Seattle,Outgoing,"There’s a serious issue, I need help now."
+8158,8525,2025-03-31 20:41:48.858266,52,Boston,Incoming,Call me back when you get a chance.
+5783,8987,2025-04-06 12:51:48.858266,377,New York,Outgoing,"There’s a serious issue, I need help now."
+3207,8455,2025-04-19 22:03:48.858266,557,Boston,Outgoing,"There’s a serious issue, I need help now."
+9259,7812,2025-04-19 08:58:48.858266,202,Houston,Outgoing,"This is an urgent warning, please evacuate immediately."
+7522,6773,2025-04-21 23:57:48.858266,470,Los Angeles,Outgoing,Just wanted to say thank you for your help earlier!
+2221,8987,2025-04-06 20:31:48.858266,332,Chicago,Outgoing,"There’s a serious issue, I need help now."
+4209,5108,2025-03-29 06:26:48.858266,326,Boston,Incoming,Stop bothering me or I’ll report this call.
+9734,2573,2025-04-13 17:56:48.858266,225,Los Angeles,Outgoing,Call me back when you get a chance.
+7822,2085,2025-04-07 16:21:48.858266,174,Boston,Outgoing,"Everything went smoothly, I appreciate your support."
+4267,7925,2025-04-23 02:08:48.858266,382,Boston,Incoming,"There’s a serious issue, I need help now."
+3000,2278,2025-04-21 20:46:48.858266,540,Chicago,Outgoing,"There’s a serious issue, I need help now."
+5966,1569,2025-04-11 11:57:48.858266,442,San Francisco,Incoming,I left the documents on your desk.
+2286,5968,2025-03-25 10:59:48.858266,460,San Francisco,Incoming,I left the documents on your desk.
+5108,6292,2025-04-16 18:07:48.858266,221,Seattle,Outgoing,I left the documents on your desk.
+4061,7812,2025-04-04 15:24:48.858266,511,Los Angeles,Incoming,Stop bothering me or I’ll report this call.
+7800,1877,2025-03-30 09:52:48.858266,176,San Francisco,Outgoing,I left the documents on your desk.
+5540,3600,2025-04-18 11:20:48.858266,207,Los Angeles,Incoming,Please confirm your availability for the meeting.
+3893,2159,2025-04-02 02:21:48.858266,516,Los Angeles,Incoming,"Everything went smoothly, I appreciate your support."
+4202,8570,2025-04-17 13:49:48.858266,430,Seattle,Outgoing,Stop bothering me or I’ll report this call.
+8065,7464,2025-04-23 22:50:48.858266,82,New York,Incoming,Stop bothering me or I’ll report this call.
+4636,5056,2025-04-10 12:59:48.858266,38,Seattle,Incoming,Please confirm your availability for the meeting.
+8998,1883,2025-04-21 14:01:48.858266,71,Chicago,Outgoing,"Everything went smoothly, I appreciate your support."
+9750,4536,2025-04-04 18:32:48.858266,143,New York,Outgoing,Stop bothering me or I’ll report this call.
+2814,2221,2025-04-23 11:33:48.858266,89,Los Angeles,Outgoing,Call me back when you get a chance.
+9950,5015,2025-04-09 05:02:48.858266,202,New York,Incoming,Call me back when you get a chance.
+1439,5904,2025-04-08 01:23:48.858266,569,Chicago,Outgoing,"There’s a serious issue, I need help now."
+5038,4783,2025-03-29 03:13:48.858266,562,Seattle,Incoming,"There’s a serious issue, I need help now."
+5962,4267,2025-03-27 12:40:48.858266,453,Los Angeles,Incoming,Call me back when you get a chance.
+2345,6773,2025-04-01 18:41:48.858266,575,San Francisco,Incoming,Just wanted to say thank you for your help earlier!

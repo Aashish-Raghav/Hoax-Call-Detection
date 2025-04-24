@@ -59,39 +59,3 @@ def detect_time_location_communities(df):
             # print(f"{key}: {len(set(partition.values()))} communities detected.")
     return result
 
-
-def extract_community_nodes(partition, community_id):
-    """Return list of nodes belonging to a specific community ID."""
-    return [node for node, comm in partition.items() if comm == community_id]
-
-
-def visualize_selected_communities(df, selected_community_ids):
-    """
-    Visualize specific communities by IDs (e.g., [2, 3, 6]).
-    """
-    G = nx.DiGraph()
-
-    for _, row in df.iterrows():
-        G.add_edge(row["Caller_ID"], row["Receiver_ID"], weight=1)
-
-    if len(G.nodes) <= 1:
-        # print("⚠️ Not enough data to form a graph.")
-        return
-
-    partition = community_louvain.best_partition(nx.Graph(G))
-
-    selected_nodes = [node for node, comm in partition.items() if comm in selected_community_ids]
-
-    if not selected_nodes:
-        # print(f"⚠️ Selected communities {selected_community_ids} do not exist.")
-        return
-
-    sub_G = G.subgraph(selected_nodes)
-    node_colors = [partition[node] for node in sub_G.nodes()]
-
-    plt.figure(figsize=(10, 6))
-    pos = nx.spring_layout(sub_G, seed=42)
-    nx.draw(sub_G, pos, with_labels=True, node_size=300, cmap=plt.cm.Set1,
-            node_color=node_colors, edge_color="gray", font_size=6)
-    plt.title(f"Visualization of Communities {selected_community_ids}")
-    plt.show()

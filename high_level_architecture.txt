@@ -1,14 +1,40 @@
-           ┌────────────────────────────┐
-           │         Frontend           │
-           │  (User input/upload)       │
-           └────────────────────────────┘
-                      │
-                      ▼
-           ┌────────────────────────────┐
-           │       Backend Core         │
-           │  - Graph Construction      │
-           │  - Centrality Analysis     │
-           │  - PageRank Calculation    │
-           │  - Community Detection     │
-           │  - Risk Scoring & Viz      │
-           └────────────────────────────┘
+                 ┌───────────────────────────────┐
+                 │       User Interface (UI)     │
+                 │    (Streamlit Web Dashboard)  │
+                 └───────────────────────────────┘
+                                │
+                                ▼
+     ┌────────────────────────────────────────────────────┐
+     │                    Frontend Layer                  │
+     │      app.py handles user inputs and routing        │
+     └────────────────────────────────────────────────────┘
+                                │
+                                ▼
+     ┌────────────────────────────────────────────────────┐
+     │                    Backend Modules                 │
+     └────────────────────────────────────────────────────┘
+       │             │                │           │
+       ▼             ▼                ▼           ▼
+┌─────────────┐  ┌────────────┐  ┌────────────┐ ┌─────────────┐
+│graph_utils.py│  │centrality.py│  │pagerank.py │ │community.py │
+│ Graph Building│  │ Metrics      │  │ PageRank   │ │ Louvain Clust.│
+└─────────────┘  └────────────┘  └────────────┘ └─────────────┘
+       │             │                │           │
+       └────┬────────┴────────┬───────┴────┬──────┘
+            ▼                 ▼            ▼
+      ┌──────────────────────────────────────────┐
+      │           risk_analysis.py               │
+      │  Composite score from metrics & labels   │
+      └──────────────────────────────────────────┘
+                                │
+                                ▼
+                 ┌────────────────────────────┐
+                 │  visualizations.py         │
+                 │  Graphs, heatmaps, charts  │
+                 └────────────────────────────┘
+                                │
+                                ▼
+            ┌────────────────────────────┐
+            │      Final Output to UI    │
+            │    (Graph, Table, Charts)  │
+            └────────────────────────────┘
