@@ -184,11 +184,30 @@ if uploaded_file:
                         visualize_selected_communities(G_location, partition, selected_community_ids)
 
     elif section == "Sentiments Analysis":
-        st.header("📈 Sentimenta Analysis")
+        st.header("Sentiments Analysis")
+
         with st.spinner("Processing... Please wait."):
-            if "Sentiment" not in df.columns:
-                df["Sentiment"] = df["Call_Text"].apply(analyze_sentiment)
+            df, top_dangerous_nodes = analyze_sentiment(df)
 
         with st.spinner("Generating visualization..."):
             visualize_sentiments(df)
+
+        # User selects how many top dangerous texts to view
+        top_n = st.slider("Select number of most dangerous calls to view", min_value=5, max_value=20, value=5)
+
+        st.subheader(f"Top {top_n} Most Dangerous Call Texts")
+        st.caption("Ranked by most negative sentiment polarity (potential hoax indicators).")
+
+        # Display selected number of top dangerous calls in a table
+        top_df = pd.DataFrame(top_dangerous_nodes[:top_n], columns=["Polarity Score", "Caller ID", "Call Text"])
+        st.dataframe(top_df[["Caller ID", "Polarity Score"]].style.format({"Polarity Score": "{:.3f}"}))
+
+        # Optional expander for call text preview
+        with st.expander("🔍 View Call Texts of These Calls"):
+            for score, caller, text in top_dangerous_nodes[:top_n]:
+                st.markdown(f"""
+                Caller ID: `{caller}`  
+                Polarity Score: `{score:.3f}`  
+                Call Text: _{text}_  
+                """)
 
