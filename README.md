@@ -1,6 +1,7 @@
 # 📞 Hoax Call Detection in Social Network Graphs
 
 A powerful Streamlit-based dashboard to analyze suspicious calling patterns using graph theory, community detection, and centrality-based risk scoring.
+<br><br>
 
 ## 🔍 Project Overview
 
@@ -10,6 +11,7 @@ This project analyzes a dataset of hoax calls and visualizes the calling network
 - 🧠 Communities within the call network  
 - 🚨 High-risk callers (based on composite centrality)  
 - 🌐 Heatmaps & visualizations of call behavior
+<br><br>
 
 ## 📬 Dataset Format (`hoax_call_data.csv`)
 
@@ -62,6 +64,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run frontend/app.py
 ```
+<br>
+
 ## 📈Key Features
 
 - **Graph Building**: Converts call logs into a directed communication network using NetworkX.
@@ -71,6 +75,7 @@ streamlit run frontend/app.py
 - **Sentiment Analysis**: Analyzes emotional tone of call text using TextBlob and visualizes distribution of sentiments.
 - **Interactive Visualizations**: Includes dynamic heatmaps, top high-risk nodes, selected community graphs, and sentiment charts using Matplotlib.
 
+<br>
 
 ## 📌 Dependencies
 - Streamlit  
